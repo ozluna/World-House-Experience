@@ -16,7 +16,7 @@ ul#nav {
 }
 
 .image{
-	background:url('C:/Program Files/Sublime Text 3/Website/assets/images/Sea turtle bigger.png') no-repeat bottom right fixed;
+	background:url('../assets/images/Sea turtle bigger.png') no-repeat bottom right fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
