@@ -93,3 +93,28 @@ ul#nav {
 	
 }
 
+#the-first{
+    background-color: #1a1877;
+     
+}
+#the-second{
+    background-color: #5085e9;
+}
+#the-third{
+    background-color: #a3c797;
+}
+#the-forth{
+    background-color: #e1d874;
+
+}
+.col-md-3 h1{
+    font-family:oswald;
+    font-weight: 500;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.col-md-3 p{
+    font-family: exo;
+    font-weight:500;
+    color: whitesmoke;
+}
