@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100 200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:100 200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 header{
     margin: 0;
 }
@@ -16,7 +16,7 @@ ul#nav {
 }
 
 .image{
-	background:url('../assets/images/Sea turtle bigger.png') no-repeat bottom right fixed;
+	background:url('/assets/images/Sea turtle bigger.png') no-repeat bottom right fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -48,10 +48,10 @@ ul#nav {
 }
 
 .callout{
-	font-family: roboto;
+	font-family: oswald;
 	font-weight: 700;
 	color: whitesmoke;	
-	position: fixed;
+	position: absolute;
 	float: left;
 }
 .callout h1{
@@ -67,12 +67,29 @@ ul#nav {
 
 }
 .subscribe{
-	background-color: rgba(23,235,238,0.2);
+	background-color: #dffbfb;
 	padding: 20px;
 
 }
+.subscribe h2{
+    font-family: oswald;
+    font-weight:500;
+    
+
+}
+
+.subscribe label {
+    font-family: Exo;
+    font-weight: 500;
+}
 .subscribe input{
+    
+    
 	background-color: transparent;
 	width: 100%;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid;
+    border-radius: 2px;
 	
 }
+
