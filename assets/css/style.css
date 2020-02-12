@@ -8,6 +8,7 @@ header{
 	display: inline-block;
 	position: absolute;
 	margin-top: 0;
+    z-index: 1;
 	
 }
 ul#nav {
@@ -16,7 +17,7 @@ ul#nav {
 }
 
 .image{
-	background:url('/assets/images/Seaturtle.png') no-repeat bottom right fixed;
+	background:url('assets/images/Seaturtle.png') no-repeat bottom right fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -112,9 +113,11 @@ ul#nav {
     font-weight: 500;
     color: whitesmoke;
     text-transform: uppercase;
+    text-align: center;
 }
 .col-md-3 p{
     font-family: exo;
     font-weight:500;
     color: whitesmoke;
+    text-align: center;
 }
