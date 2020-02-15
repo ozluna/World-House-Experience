@@ -134,3 +134,14 @@ ul#nav {
     padding: 50px 15px 0 15px;
     
 }
+.social{
+   
+    align-content: center;
+}
+.social li a {
+   
+    margin-left: 10px;
+    padding: 20px;
+    width: 29px;
+    height: 30px;
+}
