@@ -71,7 +71,7 @@ ul#nav {
 
 }
 .subscribe{
-	background-color: #dffbfb;
+	
 	padding: 20px;
 
 }
@@ -112,6 +112,9 @@ ul#nav {
     background-color: #e1d874;
 
 }
+.about{
+    background-color: white;
+}
 .col-md-3 h1{
     font-family:oswald;
     font-weight: 500;
@@ -141,7 +144,9 @@ ul#nav {
 .social li a {
    
     margin-left: 10px;
-    padding: 20px;
-    width: 29px;
-    height: 30px;
+    
+   
+}
+footer{
+    background-color: #dffbfb;
 }
