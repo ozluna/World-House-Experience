@@ -183,3 +183,9 @@ footer{
     left:0;
     z-index:2;
 }
+article  {
+    padding: 19px;
+    text-align: center;
+    margin-top: 40px;
+}
+}
