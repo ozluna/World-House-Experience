@@ -162,6 +162,7 @@ footer{
 	justify-content: center;
     padding:0px;  
     margin-top:55px;
+   
     
 
 }
@@ -195,4 +196,7 @@ article  {
     text-align: center;
     margin-top: 40px;
     z-index:3;
+    background-size: cover;
+	background-position: center;      /* I need to put scrool in small version of the article to be responsive 700px and below*/ 
 }
+/*turn the menu to hamburger when it is smal 873px(5rem) 700px below*/
