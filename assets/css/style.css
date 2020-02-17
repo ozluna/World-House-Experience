@@ -76,13 +76,7 @@ ul#nav {
 	padding: 20px;
 
 }
-.col-md-4 h5{
-    font-family: oswald;
-    font-weight:500;
-    text-align: center;
-    letter-spacing: 4px;
-  
-}
+
 
 .subscribe label {
     
@@ -113,9 +107,13 @@ ul#nav {
     background-color: #e1d874;
 
 }
-.about{
+
+.about-us{
     background-color: white;
+    padding:20px;
+
 }
+
 .col-md-3 h1{
     font-family:oswald;
     font-weight: 500;
@@ -129,6 +127,13 @@ ul#nav {
     color: whitesmoke;
     text-align: center;
 }
+.col-md-4 h5{
+    font-family: oswald;
+    font-weight:500;
+    text-align: center;
+    letter-spacing: 4px;
+  
+}
 
 .inline-block{
     display: inline-block;
@@ -139,32 +144,34 @@ ul#nav {
     
 }
 .social{
-   
+   padding:20px;
     align-content: center;
 }
-.social li a {
-   
-    margin-left: 10px;
-    
-   
+
+.list-inline-item:not(:last-child) {
+    margin-right: 5rem;
+    margin-left: 5px;
 }
 footer{
     background-color: #dffbfb;
 }
 .about{
     position: relative;
-    
+    align-items: center;
+	justify-content: center;
+    padding:0px;  
+    margin-top:55px;
     
 
 }
 .image-about{
     background: url('/assets/images/Wind-Turbines.png') no-repeat top left fixed;
-    width: 100vw;
-    height:609px ;
+    width: 100%;
+    height:570px ;
     display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative; 
+	
     margin: 0;
 	padding: 0;
     color:whitesmoke;
@@ -180,12 +187,11 @@ footer{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
     top:0;
-    left:0;
     z-index:2;
 }
 article  {
     padding: 19px;
     text-align: center;
     margin-top: 40px;
-}
+    z-index:3;
 }
