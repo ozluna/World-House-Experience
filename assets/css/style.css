@@ -197,6 +197,13 @@ article  {
     margin-top: 40px;
     z-index:3;
     background-size: cover;
-	background-position: center;      /* I need to put scrool in small version of the article to be responsive 700px and below*/ 
+	background-position: center;  
+    overflow: auto;
+    max-height: 570px;
+   
 }
 /*turn the menu to hamburger when it is smal 873px(5rem) 700px below*/
+
+@media screen and (max-width: 700px){
+  
+}
