@@ -204,20 +204,31 @@ article  {
     max-width: 1000px;
    
 }
+#photo{
+    clear: both;
+    column-count:3;
+    margin: 8px;
+    
+}
+#photo img{
+    width:100%;
+    margin:2px;
+}
 /*turn the menu to hamburger when it is smal 873px(5rem) 700px below*/
 /* add project page just a pic gallery */
+.menu-btn{
+    display:none;
+}
 
 @media screen and (max-width: 700px){
 
 #nav li {
     display: block;
-    
+    visibility: hidden;
+    transition: delay 2;
     
 }
-#nav li a {
-  
-    visibility: hidden;
-  }
+
 .menu-icon{
     padding:28px 20px;
     position: relative;
@@ -253,8 +264,12 @@ article  {
 .menu-btn{
     display:none;
 }
-.menu-btn:checked~ #nav li a{
+.menu-btn:checked~ #nav li {
+    
     visibility: visible;
+    margin-top:50px;
+    clear:both;
+    
 
 }
 }
