@@ -20,7 +20,7 @@ ul#nav {
 }
 
 .image{
-	background:url('../assets/images/Seaturtle.png') no-repeat bottom right fixed;
+	background:url('../images/Seaturtle.png') no-repeat bottom right fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -168,7 +168,7 @@ footer{
 
 }
 .image-about{
-    background: url('../assets/images/Wind-Turbines.png') no-repeat top left fixed;
+    background: url('../images/Wind-Turbines.png') no-repeat top left fixed;
     width: 100%;
     height:570px ;
     display: flex;
