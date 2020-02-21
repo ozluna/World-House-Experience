@@ -261,9 +261,7 @@ article  {
     top:-6px;
 
 }
-.menu-btn{
-    display:none;
-}
+
 .menu-btn:checked~ #nav li {
     
     visibility: visible;
