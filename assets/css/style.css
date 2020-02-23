@@ -139,6 +139,11 @@ ul#nav {
     letter-spacing: 4px;
   
 }
+h3{
+    font-family: oswald;
+    font-weight:500;
+    letter-spacing: 4px;
+}
 
 .inline-block{
     display: inline-block;
