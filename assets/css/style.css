@@ -41,15 +41,14 @@ ul#nav {
 /* call out section*/
 
 .image{
-	background:url('../images/Seaturtle.png') no-repeat right fixed;
+	background:url('../images/Seaturtle.png') no-repeat top right fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative; 
 	width: 100%;
-	height: 570px;
-	
-    
+	height: 470px;
+    margin-top:15px;   
 
 }
 
@@ -176,7 +175,7 @@ footer{
     align-items: center;
 	justify-content: center;
     padding:0px;  
-    margin-top:55px;
+    margin-top:15px;
    
     
 
@@ -187,8 +186,7 @@ footer{
     width: 100%;
     display: flex;
 	align-items: center;
-	justify-content: center;
-	
+	justify-content: center;	
     margin: 0;
 	padding: 0;
     color:whitesmoke;
@@ -213,8 +211,6 @@ article  {
     z-index:3;
     background-size: cover;
 	background-position: center;  
-    overflow: auto;
-    max-height: 530px;
     max-width: 1000px;
    
 }
