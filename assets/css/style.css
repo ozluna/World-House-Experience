@@ -17,7 +17,7 @@ header{
     
 	
 }
-ul #nav {
+ul#nav {
 	float: right;
     
 }
@@ -214,10 +214,16 @@ article  {
     max-width: 2000px;
    
 }
-#members {
+ul#members {
    
     list-style: none;
+   }
+.blockquote {
+  
+    font-size: 1rem;
 }
+
+
 
 /*project page*/
 #photo{
