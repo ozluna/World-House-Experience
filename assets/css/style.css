@@ -211,11 +211,11 @@ article  {
     z-index:3;
     background-size: cover;
 	background-position: center;  
-    max-width: 1000px;
+    max-width: 2000px;
    
 }
-ul {
-    text-align: left;
+#members {
+   
     list-style: none;
 }
 
