@@ -255,7 +255,7 @@ ul#members {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  
 }
 .container:hover img{
   opacity: 0.3;
@@ -278,7 +278,7 @@ ul#members {
 #nav li {
     display: block;
     visibility: hidden;
-    transition: delay 2;
+    
     
 }
 
@@ -294,7 +294,7 @@ ul#members {
     height: 2px;
     width:25px;
     position:relative;
-    transition: background .2 ease-out;
+    
 }
 .menu-icon .nav-icon:before{
     background:#3333;
@@ -318,7 +318,7 @@ ul#members {
 .menu-btn:checked~ #nav li {
     
     visibility: visible;
-    margin-top:50px;
+    margin-top:10px;
     clear:both;
     
 
