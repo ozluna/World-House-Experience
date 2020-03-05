@@ -17,7 +17,7 @@ This website is for people who would like to take small steps in their world to 
 
 ## Technologies Used
 In this website I have used **html** and **css** languages.**Exo** and **Oswald** google fonts, **fontawsome** for the social links, 
-I used **wireframe** to create a sketch of the website. I used **bootstrap** classes to make the website responsive.
+I used [**wireframe**](https://wireframe.cc/pro/pp/4d69728f4309553) to create a sketch of the website. I used **bootstrap** classes to make the website responsive.
 
 ## Credits
 ### Content
