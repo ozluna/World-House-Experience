@@ -2,8 +2,7 @@ World House Experience
 
 Hi there,
 
-World house experience is a working progress charity organisation.
-It is focused on local project to solved the global problem.
+World house experience is a working progress charity organisation which is focused on local project to solved the global problems.
 
 This website for the people who would like to make small steps in the big run in order to make a difference.
 The organisation looking to bring activist to give talks. User can subscribe the news letter or following social media links(still in progress) to get information.
