@@ -23,6 +23,7 @@ I used [**wireframe**](https://wireframe.cc/pro/pp/4d69728f4309553) to create a 
 ### Content
 * The "Projects" page design is inspired from https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity
 * The "About" Organisers list is inspired from code institue lesson *Bootstrap: Core components part 2*
+* css hamburger menu inspired from https://www.youtube.com/watch?v=sjrp1FEHnyA
 
 ### Thank you for visiting the website
 
