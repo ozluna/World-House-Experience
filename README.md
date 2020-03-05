@@ -13,7 +13,7 @@ This website is for people who would like to take small steps in their world to 
 * Local projects like planting trees, cleaning the enviroment or workshop events will be anounced throughout the year.
   The information about time, place etc. will be available on the website and newsletter.
 * There will be additional features such as recieving donation, signing up for volunteering, upcoming events.
-  The hamburger menu button will be improved by using Java Script language.
+  The hamburger menu button will be improved by using Java Script language and the subscription button will be fixed.
 
 ## Technologies Used
 In this website I have used **html** and **css** languages.**Exo** and **Oswald** google fonts, **fontawsome** for the social links, 
