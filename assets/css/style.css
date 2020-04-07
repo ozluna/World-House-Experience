@@ -3,7 +3,9 @@
 
 body{
     font-family: exo;
+    overflow-x: hidden !important;
 }
+
 /* nav section*/
 
 header{
@@ -22,9 +24,9 @@ ul#nav {
     margin-right:60px;
     
 }
-.col-sm-3 {
+/*.col-sm-3 {
 	max-width: 10%;
-}
+}*/
 #nav li a{
 	text-decoration: none;
 	border: 1px;
@@ -42,7 +44,7 @@ ul#nav {
 /* call out section*/
 
 .image{
-	background:url('../images/Seaturtle.png') no-repeat top right fixed;
+	background:url('../images/Seaturtle.png') no-repeat top fixed;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,18 +72,28 @@ ul#nav {
 
 
 
-#the-first{
-    background-color: #1a1877;
+.short-states{
+    background-color:#40a5ac;
+    width: 100%;
+    /* #98D2EB;*/
      
 }
-#the-second{
-    background-color: #5085e9;
+.short-state-second{
+    background-color:#8cb687;
+    width:100%;
+    
+    /* #5085e9;*/
 }
 #the-third{
-    background-color: #a3c797;
+    background-color: #98D2EB;
+    width:100%;
+    /*#a3c797;*/
 }
 #the-forth{
-    background-color: #e1d874;
+    background-color: #E1F2FE;
+    width:100%;
+    
+    /*#e1d874;*/
 
 }
 
@@ -122,14 +134,14 @@ ul#nav {
 .col-md-3 h1{
     font-family:oswald;
     font-weight: 500;
-    color: whitesmoke;
+    color:#49392C;
     text-transform: uppercase;
     text-align: center;
 }
 .col-md-3 p{
     
     font-weight:500;
-    color: whitesmoke;
+    color:#49392C;
     text-align: center;
 }
 .col-md-4 h5{
@@ -176,7 +188,7 @@ footer{
     position: relative;
     align-items: center;
 	justify-content: center;
-    padding:0px;  
+    padding:0em;  
     margin-top:15px;   
 
 }
@@ -237,6 +249,12 @@ ul#members {
     width:100%;
     margin:2px;
 }
+/*Fixing the horizantal scroll in small sized screen*/
+.row{
+    margin:0%;
+
+}
+/*project page images transparant */
 .container{
     position: relative;
 }
@@ -271,15 +289,14 @@ ul#members {
 .menu-btn{
     display:none;
 }
-
+/* Menu button for small screen sizes*/
 
 @media screen and (max-width: 700px){
 
 #nav li {
     display: block;
     visibility: hidden;
-    
-    
+       
 }
 
 .menu-icon{
