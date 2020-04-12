@@ -171,14 +171,14 @@ h3{
    padding:20px;
    text-align:center;
 
-    
 }
 
-
-
 .social li a i{
-   
+   width:20px;
+   font-size: 2em;
    line-height: 7px;
+   color: #3f8d36;
+   padding: 20px 20px 10px 15px;
 }
 
 
@@ -289,55 +289,7 @@ ul#members {
 .menu-btn{
     display:none;
 }
-/* Menu button for small screen sizes*/
+/* Menu button for small screen sizes
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px){}*/
 
-#nav li {
-    display: block;
-    visibility: hidden;
-       
-}
-
-.menu-icon{
-    padding:28px 20px;
-    position: relative;
-    float:right;
-
-}
-.menu-icon .nav-icon{
-    background:#3333;
-    display:block;
-    height: 2px;
-    width:25px;
-    position:relative;
-    
-}
-.menu-icon .nav-icon:before{
-    background:#3333;
-    content:"";
-    height:100%;
-    width:100%;
-    position:absolute;
-    top:6px;
-
-}
-.menu-icon .nav-icon:after{
-    background:#3333;
-    content:"";
-    height:100%;
-    width:100%;
-    position:absolute;
-    top:-6px;
-
-}
-
-.menu-btn:checked~ #nav li {
-    
-    visibility: visible;
-    margin-top:10px;
-    clear:both;
-    
-
-}
-}
