@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!--logo and menu section--> 
     <header class="container-fluid">
         <div class="row">
             <a class="navbar-brand" id="logo" href="index.html"><img src="./assets/images/logo200.png" alt="World House Logo"> </a>
@@ -36,15 +37,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="news.html">News</a>
                         </li>
-                         <li class="nav-item">
+                         <li class="nav-item active">
                             <a class="nav-link" href="events.html">Events</a>
                         </li>
-                         <li class="nav-item active">
+                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
                         </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">                        
-                       <a href="https://paypal.me/oonel?locale.x=en_GB" target="_blank" ><button class="btn btn-outline-success my-2 my-sm-0" type="button">Donate </button></a>
+                        <a href="https://paypal.me/oonel?locale.x=en_GB" target="_blank" ><button class="btn btn-outline-success my-2 my-sm-0" type="button">Donate </button></a>
                       
                         </form>
                     </div>
@@ -54,78 +55,48 @@
         </div>
 
     </header>
-
-    <section id="photo">
-        <div class="container">
-            <img src="./assets/images/project1.jpg" alt="Bring in food donations">
-            <a href="#"><div class="middle">
-
-                 <p>Bring in food donations</p>
-
-            </div></a>
+    <div class="row">
+        <div class="col-md">
+            
+            <h1>  World House experience statement.</h1>  
+            <p>      
+                Whilst we are excited about moving forward to planning towards our event date
+                on Saturday 20 th February 2021 we are acutely aware of the great tragedy of the
+                Carona virus which is causing terrible havoc in the world.
+                Much of the work we are doing involves networking with other interested parties
+                and all our work involves e=home electronic communication as well as strictly
+                adhering to government guidelines about staying at home and keeping safe
+                distances.
+                By spreading the word of or event electronically of by the phone you will be
+                helping us grow as an organisation, but the most important thing is we stay
+                healthy and safe.
+                John Ashworth
+                Event organiser
+                3.4.20
+            </p>
         </div>
-        <div class="container">
-            <img src="./assets/images/project2.jpg" alt="Achive together">
-            <a href="#"><div class="middle">
+    </div>
 
-                <p>Share your skills</p>
-
-            </div></a>
-        </div>
-        <div class="container">
-            <img src="./assets/images/project3.jpg" alt="planting trees">
-            <a href="#"><div class="middle">
-
-                <p>Work together for common goal</p>
-
-            </div></a>
-        </div>
-        <div class="container">
-            <img src="./assets/images/project4.jpg" alt="Cleaning the enviroment">
-            <a href="#"><div class="middle">
-
-                <p>Cleaning the enviroment</p>
-
-            </div></a>
-        </div>
-
-        <div class="container">
-            <img src="./assets/images/project5.jpg" alt="Cleaning the enviroments">
-            <a href="#"><div class="middle">
-
-                <p>Planting trees</p>
-
-            </div></a>
-
-        </div>
-        <div class="container">
-            <img src="./assets/images/project6.jpg" alt="volunteering">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_jTw-8TCOTVQceAlIgwAhaG5xYWueUrFlijwwPxm5oQVrSA/viewform" target="_blank"><div class="middle">
-
-                <p>Volunteering</p>
-
-            </div></a>
-        </div>
-
-    </section>
 
     <footer>
         <div class="row">
-            <div class="col-md-4 about-us">
+            <div class="col-sm col-md-4 about-us">
                 <h5 class="upper-case">About Us</h5>
-                <p class="inline-block">We live in a world which is in crisis, yet we are often alone, uninformed, unsupported and unskilled to do anything. World house aims to bring together people, information, resources and skills to empower individuals to better and enhance the communities we live in.</p>
+                <p class="inline-block">We live in a world which is in crisis, yet we are often alone, uninformed, unsupported and unskilled to do
+                 anything. World house aims to bring together people, information, resources and skills to empower individuals to better and enhance
+                  the communities we live in.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm col-md-4">
                 <div class="sub-form">
                     <form class="subscribe">
-                        <h5>Subscribe our news letter! </h5>
+                        <h5>Subscribe to our news letter! </h5>
                         <label for="fname">First Name:</label>
-                        <input type="text" name="first_name" id="fname" required>
+                        <input type="text" class="form-control" name="first_name" id="fname" required>
                         <label for="lname">Last Name:</label>
-                        <input type="text" name="last_name" id="lname" required>
+                        <input type="text" class="form-control" name="last_name" id="lname" required>
                         <label for="email">Email Address:</label>
-                        <input type="email" name="email_address" id="email" required>
-                        <button type="button" class="btn btn-outline-info">Subscribe!</button>
+                        <input type="email" class="form-control" name="email_address" id="email" required>
+                        <button type="submit" class="btn btn-outline-info">Subscribe!</button>
 
                     </form>
 
@@ -168,7 +139,11 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

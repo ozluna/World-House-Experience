@@ -16,45 +16,37 @@
     <!--logo and menu section--> 
     <header class="container-fluid">
         <div class="row">
-            <a class="navbar-brand" id="logo" href="index.html"><img src="./assets/images/logo200.png" alt="World House Logo"> </a>
-            <div class="col menu-position">
-                
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuToggler" aria-controls="menuToggler" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
+            <div class="col">
 
-                    <div class=" navbar-collapse collapse " id="menuToggler">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav">
-                        <li class="nav-item active">
-                            <a class="nav-link nav-item" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a href="index.html" id="logo"> <img src="assets/images/logo3.png" alt="logo"> </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"> <span class="nav-icon"></span></label>
+                <div class="col-6" id="nav">          
+
+                    <ul  class="list-line">
+                        <li class="list-inline-item">
+                            <a href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                        <li class="list-inline-item">
+                            <a href="about.html">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="news.html">News</a>
+
+                            <li class="list-inline-item">
+                                <a href="projects.html">Projects</a>
+
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="index_copy.html">index_copy</a>
+
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="events.html">Events</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">                        
-                            <a href="https://paypal.me/oonel?locale.x=en_GB" target="_blank" ><button class="btn btn-outline-success my-2 my-sm-0" type="button">Donate </button></a>
-                        </form>
-                    </div>
-                </nav>
+                    </ul>
+                </div>
 
             </div>
         </div>
 
     </header>
-<!-- Call out section which gives the website motto-->
+<!-- Call out section gives the website motto-->
     <section>
         <div class="row">
             <div class="col-12">
@@ -71,7 +63,6 @@
         </div>
     </section>
     <hr>
-    <!--short state for the organization-->
     <section>
         <div class="row">
             <div class="col-sm col-md-3 short-states">
@@ -107,14 +98,12 @@
         <div class="row">
             <div class="col-sm col-md-4 about-us">
                 <h5 class="upper-case">About Us</h5>
-                <p class="inline-block">We live in a world which is in crisis, yet we are often alone, uninformed, unsupported and unskilled to do
-                 anything. World house aims to bring together people, information, resources and skills to empower individuals to better and enhance
-                  the communities we live in.</p>
+                <p class="inline-block">We live in a world which is in crisis, yet we are often alone, uninformed, unsupported and unskilled to do anything. World house aims to bring together people, information, resources and skills to empower individuals to better and enhance the communities we live in.</p>
             </div>
             <div class="col-sm col-md-4">
                 <div class="sub-form">
                     <form class="subscribe">
-                        <h5>Subscribe to our news letter! </h5>
+                        <h5>Subscribe our news letter! </h5>
                         <label for="fname">First Name:</label>
                         <input type="text" class="form-control" name="first_name" id="fname" required>
                         <label for="lname">Last Name:</label>
@@ -128,14 +117,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 about-us">
-                <h5 class="upper-case">Contact Us</h5>
-                <p class="inline-block"> </p>
-            </div>
 
-            <div class="col-md-12 social">
-                <h5 class="upper-case">Follow us</h5>
-                <ul class="list-inline">
+            <div class="col-sm col-md-4">
+                <h5 class="upper-case social">Social</h5>
+                <ul class="list-inline ">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/World-House-Experience-107268307527958/" target="_blank">
                             <i class="fa fa-facebook-square" aria-hidden="true"> <span class="sr-only">facebook</span></i>
@@ -161,13 +146,10 @@
                 </ul>
 
             </div>
+
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+   
 </body>
 
 </html>

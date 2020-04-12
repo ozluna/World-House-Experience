@@ -3,43 +3,43 @@
 
 body{
     font-family: exo;
-    overflow-x: hidden !important;
+    
 }
+/*Fixing the horizantal scroll apparently row class comes with -15 margin by default*/
+.row{
+    margin-left:0em !important;
+    margin-right:0em !important;
 
+}
 /* nav section*/
 
-header{
-   padding-top:10px;
+.menu-position{
+    margin-top:1em;
 }
 
 #logo{
 	display: inline-block;	
 	margin-top: 0;
     z-index: 1;
-    margin-left: 20px;
+   /* margin-left: 20px;*/
 
 }
-ul#nav {
-	float: right;
-    margin-right:60px;
-    
-}
-/*.col-sm-3 {
-	max-width: 10%;
-}*/
-#nav li a{
+
+
+.nav li a{
 	text-decoration: none;
 	border: 1px;
 	border-radius: 5px;
 	color: black;	
 	font-weight: 500;
-	float: right;
-	margin-right: 30px;
+	
+	
 }
-#nav a:hover{
+.nav a:hover{
 	background-color: rgb(0,0,0,0.2);
 
 }
+
 
 /* call out section*/
 
@@ -50,7 +50,7 @@ ul#nav {
 	justify-content: center;
 	position: relative; 
 	width: 100%;
-	height: 470px;
+	height: 25em;
     margin-top:15px;   
 
 }
@@ -73,13 +73,14 @@ ul#nav {
 
 
 .short-states{
-    background-color:#40a5ac;
+    background-color:#85C5CA;
     width: 100%;
     /* #98D2EB;*/
      
 }
 .short-state-second{
-    background-color:#8cb687;
+    background-color:#99C294;
+    /*8cb687*/;
     width:100%;
     
     /* #5085e9;*/
@@ -134,14 +135,14 @@ ul#nav {
 .col-md-3 h1{
     font-family:oswald;
     font-weight: 500;
-    color:#49392C;
+    color:whitesmoke;
     text-transform: uppercase;
     text-align: center;
 }
 .col-md-3 p{
     
     font-weight:500;
-    color:#49392C;
+    color:whitesmoke;
     text-align: center;
 }
 .col-md-4 h5{
@@ -168,31 +169,34 @@ h3{
 }
 .social{
    padding:20px;
-   align-content: center;
+   text-align:center;
 
     
 }
- ul {
-    text-align: center;
-}
+
 
 
 .social li a i{
    
    line-height: 7px;
 }
-footer{
-    background-color: #dffbfb;
+
+
+/*About page*/
+.col-12{
+    padding-left: 0em !important;
+    padding-right:0em !important;
 }
 .about{
     position: relative;
     align-items: center;
 	justify-content: center;
-    padding:0em;  
-    margin-top:15px;   
-
+    font-size:1.2em;
 }
-/*About page*/
+.about p{
+    font-size:0.75em;
+}     
+
 .image-about{
     background: url('../images/Wind-Turbines.png') no-repeat left fixed;
     width: 100%;
@@ -232,7 +236,7 @@ ul#members {
    }
 .blockquote {
   
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 
@@ -249,12 +253,8 @@ ul#members {
     width:100%;
     margin:2px;
 }
-/*Fixing the horizantal scroll in small sized screen*/
-.row{
-    margin:0%;
 
-}
-/*project page images transparant */
+/*project page transparant layer for images */
 .container{
     position: relative;
 }
