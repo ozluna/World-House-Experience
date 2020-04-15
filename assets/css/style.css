@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:100 200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+/*Color Scheme 
+#85C5CA
+#99C294
+#64B6B7
+*/
+/*General section*/
 body{
     font-family: exo;
     
@@ -29,12 +34,13 @@ body{
 	
 }
 .nav a:hover{
-	background-color: rgb(0,0,0,0.2);
+	background-color: #64B6B7;
+    /*rgb(0,0,0,0.2);*/
 
 }
 
 
-/* call out section*/
+/* call out section and home page main image*/
 
 .image{
 	background:url('../images/Seaturtle.png') no-repeat top fixed;
@@ -72,26 +78,22 @@ body{
      
 }
 .short-state-second{
-    background-color:#99C294;
-    
-    width:100%;
-    
+    background-color:#99C294;    
+    width:100%;   
    
 }
 
 
 
-/*footer*/
+/*footer divided 4 section*/
 .sub-form{
 	clear:left;
 	background-size: cover;
 	background-position: center;
 
 }
-.subscribe{
-	
+.subscribe{	
 	padding: 20px;
-
 }
 
 
@@ -109,7 +111,7 @@ body{
 	
 }
 
-
+/*Short about section*/
 .about-us{
     background-color: white;
     padding:20px;
@@ -134,14 +136,10 @@ body{
     font-weight:500;
     text-align: center;
     letter-spacing: 4px;
+    padding-bottom: 0.7em;
   
 }
-h3{
-    font-family: oswald;
-    font-weight:500;
-    letter-spacing: 4px;
-    text-align: center;
-}
+
 
 .inline-block{
     display: inline-block;
@@ -174,7 +172,12 @@ h3{
     padding:20px;
 }
 .contact-us ul{
+    padding-top:3em;
     list-style: none;
+    display:inline-block;
+}
+.contact-us ul li{
+    display: flex;
 }
 .contact-us ul li b {
     padding:0.5em;
@@ -220,7 +223,9 @@ h3{
 }
 .image-about h3{
     font-family: oswald;
-
+    font-weight:500;
+    letter-spacing: 4px;
+    text-align: center;
 }
 .overlay{
     width:100%;
@@ -250,11 +255,13 @@ ul#members {
 .blockquote {   
     font-size: 1em;
 }
-.blockquote .font-weight-bold{
-    font-family: oswald;
-}
+
 .media{
     align-items: flex-end;
+}
+.media .blockquote h5{
+     font-family: oswald;
+     font-weight: 500;
 }
 /*News page*/
 .news{
@@ -266,11 +273,12 @@ ul#members {
     font-family: oswald;
 }
 .news p {
-    padding:3em;
-    white-space: pre;
+    max-width:980px;
+    padding:3em;    
     color:whitesmoke;
     font-size:1.2em;
     font-family: exo;
+    text-align: left;
 }
 .news p b {
     font-family: oswald;
