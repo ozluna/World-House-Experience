@@ -127,6 +127,11 @@ body{
 	
 }
 
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #64B6B7;
+    border-color: #64B6B7;
+
 .about-us{
     background-color: white;
     padding:20px;
@@ -174,18 +179,24 @@ h3{
 
 }
 
-.social li a i{
+.social ul a i{
    width:20px;
    font-size: 2em;
    line-height: 7px;
-   color: #3f8d36;
+   color: #64B6B7;
    padding: 20px 20px 10px 15px;
 }
-.contact-us a i{
-    width:20px;
+.contact-us{
+    padding:20px;
+}
+.contact-us p ul{
+    list-style: none;
+}
+.contact-us p ul li a i{
+   width:20px;
    font-size: 2em;
    line-height: 7px;
-   color: black;
+   color: #64B6B7;
    padding: 20px 20px 10px 15px;
   
 }
@@ -251,7 +262,7 @@ ul#members {
 }
 /*News page*/
 .news{
-   background-color:#85C5CA;
+   background-color:#64B6B7;
 }
 .news h1{
     padding:1em 1em 0 5em;
