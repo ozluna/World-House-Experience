@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0344a0dddb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>World House Experience</title>
@@ -16,17 +17,19 @@
     <!--logo and menu section--> 
     <header class="container-fluid">
         <div class="row">
-            <a class="navbar-brand" id="logo" href="index.html"><img src="./assets/images/logo200.png" alt="World House Logo"> </a>
+            
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/logo200.png" alt="World House Logo"> </a>
+            <!--Bootstrap custom navbar-->
             <div class="col menu-position">
                 
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggler" aria-controls="navToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     
 
-                    <div class=" navbar-collapse collapse " id="navbarTogglerDemo02">
+                    <div class=" navbar-collapse collapse " id="navToggler">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav">
                         <li class="nav-item active">
                             <a class="nav-link nav-item" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -72,7 +75,7 @@
         </div>
     </section>
     <hr>
-    <!--short state for the organization-->
+    <!--short states for the organization-->
     <section>
         <div class="row">
             <div class="col-sm col-md-3 short-states">
@@ -103,7 +106,7 @@
         </div>
 
     </section>
-
+    <!--footer section includes short states for the website news letter subsribtion contact details and social links-->
     <footer>
          <div class="row">
             <div class="col-md-4 about-us">
@@ -129,17 +132,20 @@
                 </div>
 
             </div>
-            <div class="col-md-4">
-                <h5 class="upper-case contact-us">Contact Us</h5>
-                <p class="inline-block"> <ul>
+            <div class="col-md-4 contact-us">
+                <h5 class="upper-case ">Contact Us</h5>
+                <p class="inline-block">
+                  <ul>
                     <li>
-                        <a href="mailto:worldhouselive@gmail.com"><i class="fa fa-at"><span class="sr-only">Email</span></i></a>    worldhouselive@gmail.com
+                        <a href="mailto:worldhouselive@gmail.com"><i class="fa fa-envelope"><span class="sr-only">Email</span></i></a>   <b>worldhouselive@gmail.com</b> 
                     </li>
                     <li>
-                        <i class="fa fa-location-arrow"><span class="sr-only">Location</span></i> Cambridge Cambridgeshire
+                        <a href="https://www.google.com/maps/place/Cambridge/@52.1988214,0.0499476,12z/data=!3m1!4b1!4m5!3m4!1s0x47d85d89f32a012d:0x63a320e1a35e3d21!8m2!3d52.205337!4d0.121817" target="_blank"> <i class="fas fa-thumbtack"><span class="sr-only">Location</span></i></a>  <b>  Cambridge, Cambridgeshire</b>
                     </li>
+                    <li> <a href="tel:+447970249727" rel="noopener noreferrer"><i class="fas fa-mobile"> <span class="sr-only">Phone</span> </i></a> <b> +44 7970 249727</b>
+                    </li> 
                 
-                    </ul>
+                 </ul>
                 </p>
                
             </div>
@@ -174,6 +180,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

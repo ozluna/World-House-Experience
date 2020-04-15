@@ -17,14 +17,6 @@ body{
     margin-top:1em;
 }
 
-#logo{
-	display: inline-block;	
-	margin-top: 0;
-    z-index: 1;
-   /* margin-left: 20px;*/
-
-}
-
 
 .nav li a{
 	text-decoration: none;
@@ -76,7 +68,7 @@ body{
 .short-states{
     background-color:#85C5CA;
     width: 100%;
-    /* #98D2EB;*/
+    
      
 }
 .short-state-second{
@@ -86,18 +78,8 @@ body{
     
    
 }
-#the-third{
-    background-color: #98D2EB;
-    width:100%;
-    
-}
-#the-forth{
-    background-color: #E1F2FE;
-    width:100%;
-    
-  
 
-}
+
 
 /*footer*/
 .sub-form{
@@ -127,10 +109,6 @@ body{
 	
 }
 
-.btn-outline-info:hover {
-    color: #fff;
-    background-color: #64B6B7;
-    border-color: #64B6B7;
 
 .about-us{
     background-color: white;
@@ -178,6 +156,12 @@ h3{
    text-align:center;
 
 }
+.social h5{
+    font-family: oswald;
+    font-weight:500;
+    text-align: center;
+    letter-spacing: 4px;
+}
 
 .social ul a i{
    width:20px;
@@ -189,11 +173,16 @@ h3{
 .contact-us{
     padding:20px;
 }
-.contact-us p ul{
+.contact-us ul{
     list-style: none;
 }
-.contact-us p ul li a i{
-   width:20px;
+.contact-us ul li b {
+    padding:0.5em;
+    font-family: exo;
+
+}
+.contact-us ul li a i{
+   
    font-size: 2em;
    line-height: 7px;
    color: #64B6B7;
@@ -202,7 +191,7 @@ h3{
 }
 
 /*About page*/
-/*fixing the -15px padding issue comes with bootstrap .row class  */
+/*fixing the about page extra space -15px padding issue comes with bootstrap .row class  */
 .col-12{
     padding-left: 0em !important;
     padding-right:0em !important;
@@ -228,6 +217,10 @@ h3{
     color:whitesmoke;
     z-index: 1;
     background-size: cover;
+}
+.image-about h3{
+    font-family: oswald;
+
 }
 .overlay{
     width:100%;
@@ -256,6 +249,9 @@ ul#members {
    }
 .blockquote {   
     font-size: 1em;
+}
+.blockquote .font-weight-bold{
+    font-family: oswald;
 }
 .media{
     align-items: flex-end;

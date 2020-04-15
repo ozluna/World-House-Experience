@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/0344a0dddb.js" crossorigin="anonymous"></script>
 
     <title>World House Experience</title>
 </head>
@@ -18,18 +19,18 @@
         <div class="row">
             <a class="navbar-brand" id="logo" href="index.html"><img src="./assets/images/logo200.png" alt="World House Logo"> </a>
             <div class="col menu-position">
-                
+                <!--Bootstrap custom navbar-->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggler" aria-controls="navToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     
 
-                    <div class=" navbar-collapse collapse " id="navbarTogglerDemo02">
+                    <div class=" navbar-collapse collapse " id="navToggler">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav">
                         <li class="nav-item ">
-                            <a class="nav-link nav-item" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link nav-item" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -38,7 +39,7 @@
                             <a class="nav-link" href="news.html">News</a>
                         </li>
                          <li class="nav-item active">
-                            <a class="nav-link" href="events.html">Events</a>
+                            <a class="nav-link" href="events.html">Events <span class="sr-only">(current)</span></a>
                         </li>
                          <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
@@ -89,9 +90,22 @@
 
             </div>
 
-            <div class="col-md-4 about-us">
-                <h5 class="upper-case">Contact Us</h5>
-                <p class="inline-block"> </p>
+             <div class="col-md-4 contact-us">
+                <h5 class="upper-case ">Contact Us</h5>
+                <p class="inline-block">
+                  <ul>
+                    <li>
+                        <a href="mailto:worldhouselive@gmail.com"><i class="fa fa-envelope"><span class="sr-only">Email</span></i></a>   <b>worldhouselive@gmail.com</b> 
+                    </li>
+                    <li>
+                          <a href="https://www.google.com/maps/place/Cambridge/@52.1988214,0.0499476,12z/data=!3m1!4b1!4m5!3m4!1s0x47d85d89f32a012d:0x63a320e1a35e3d21!8m2!3d52.205337!4d0.121817" target="_blank"> <i class="fas fa-thumbtack"><span class="sr-only">Location</span></i></a> <b>Cambridge, Cambridgeshire</b>
+                    </li>
+                    <li> <a href="tel:+447970249727" rel="noopener noreferrer"><i class="fas fa-mobile"> <span class="sr-only">Phone</span> </i></a> <b> +44 7970 249727</b>
+                    </li> 
+                
+                 </ul>
+                </p>
+               
             </div>
 
             <div class="col-md-12 social">
