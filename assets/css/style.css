@@ -268,9 +268,10 @@ ul#members {
    background-color:#64B6B7;
 }
 .news h1{
-    padding:1em 1em 0 5em;
+    padding:1em 1em 0 1em;
     color: whitesmoke;
     font-family: oswald;
+    text-align: center;
 }
 .news p {
     max-width:980px;
@@ -285,10 +286,10 @@ ul#members {
 }
 /*Events page*/
 .events img{
-    width: 90%;
-    height: 90%;    
-    padding-top: 1em;
-    padding-left:5.5em;
+    width: 100%;
+    height: 100%;    
+    padding: 1em;
+    
 }
 
 /*project page*/
