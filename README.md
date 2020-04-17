@@ -20,6 +20,10 @@ In this website I have used **html** and **css** languages.**Exo** and **Oswald*
 I used **wireframe** to create a sketch of the website. I used **bootstrap** classes to make the website responsive.
 
 ## Credits
+Pictures:
+*[Wind Turbine](https://www.futurecitiesforum.london/post/2019/04/28/repowering-onshore-wind-farms-for-city-consumption)
+*[Seaturtle](https://static.wixstatic.com/media/caa4654a920345f38290b3e62eb73897.jpg/v1/fill/w_1203,h_495,al_c,q_85,usm_0.66_1.00_0.01/caa4654a920345f38290b3e62eb73897.webp)
+*[Orginisers Pictures] (https://unsplash.com/s/photos/employee) (https://healthfactorial.s3.amazonaws.com/media/public/posts_images/DHT-testosterone.jpg) (https://d01salon.com/wp-content/uploads/2017/09/cihan-soysakal-thfjaztjb-g-unsplash-e1564664307604.jpg) (https://interflon.com/assets/advisors/employee_2.jpg)
 ### Content
 * The "Projects" page design is inspired from https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity
 * The "About" Organisers list is inspired from code institue lesson *Bootstrap: Core components part 2*

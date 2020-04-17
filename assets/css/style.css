@@ -12,8 +12,8 @@ body{
 }
 /*Fixing the horizantal scroll apparently row class comes with -15 margin by default*/
 .row{
-    margin-left:0em !important;
-    margin-right:0em !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
 
 }
 /* nav section*/
@@ -196,8 +196,8 @@ body{
 /*About page*/
 /*fixing the about page extra space -15px padding issue comes with bootstrap .row class  */
 .col-12{
-    padding-left: 0em !important;
-    padding-right:0em !important;
+    padding-left: 0 !important;
+    padding-right:0 !important;
 }
 .about{
     position: relative;
@@ -231,7 +231,7 @@ body{
     width:100%;
     height:100%;
     position: absolute;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     top:0;
     z-index:2;
 }
@@ -274,7 +274,7 @@ ul#members {
     text-align: center;
 }
 .news p {
-    max-width:980px;
+    max-width:fit-content;
     padding:3em;    
     color:whitesmoke;
     font-size:1.2em;
