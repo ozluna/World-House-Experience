@@ -5,17 +5,14 @@
 #99C294
 #64B6B7
 */
+
 /*General section*/
 body{
     font-family: exo;
     
 }
-/*Fixing the horizantal scroll apparently row class comes with -15 margin by default*/
-.row{
-    margin-left:0 !important;
-    margin-right:0 !important;
 
-}
+
 /* nav section*/
 
 .menu-position{
@@ -35,7 +32,8 @@ body{
 }
 .nav a:hover{
 	background-color: #64B6B7;
-    /*rgb(0,0,0,0.2);*/
+    opacity: 0,2;
+  
 
 }
 
@@ -68,7 +66,12 @@ body{
 	justify-content: center;
 	display: block;
 }
-
+.callout button h1{
+    align-items: center;
+	justify-content: center;
+	display: block;
+    color: whitesmoke
+}
 
 
 .short-states{
@@ -194,11 +197,7 @@ body{
 }
 
 /*About page*/
-/*fixing the about page extra space -15px padding issue comes with bootstrap .row class  */
-.col-12{
-    padding-left: 0 !important;
-    padding-right:0 !important;
-}
+
 .about{
     position: relative;
     align-items: center;
@@ -245,6 +244,9 @@ article  {
     max-width: 2000px;
    
 }
+article h3{
+    font-family:oswald;
+}
 #about-main{
     padding: 0 30px 0 30px;
 }
@@ -286,6 +288,7 @@ ul#members {
 }
 /*Events page*/
 .events img{
+    
     width: 100%;
     height: 100%;    
     padding: 1em;
@@ -340,16 +343,61 @@ ul#members {
 
 /* Project page for small screen sizes clickable forms in display*/
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 576px){
+.events img {
+    display: none;
+}
+.events div{
+    background: url("../images/eventssmall.jpg") no-repeat center;
+    height: fit-content;
+    width:100%;    
+    
+}
+.events div h1{
+    text-align: center;
+    color:whitesmoke;
+    font-family: oswald;
+    font-weight:700;     
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 75px;   
+}
+.events div p{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: xx-large;
+    text-align: center;
+    color:whitesmoke;
+    font-family: exo;
+    
+}
+.events div ul li{
+    color: whitesmoke;
+    padding-top:1em;    
+    font-size: x-large;
+    font-family: exo;
+}
+.events div b {
+    color:whitesmoke;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: large;
+    font-family: exo;
+    
+}
+
 .container{
+    text-align: center;
+    color:whitesmoke;
     position: relative;
     
 }
 .container img {
-  opacity: 0.3;
+  opacity: 0.5;
   display: block;
   width: 100%;
   height: auto; 
+  padding-bottom:0.5em;
  
 }
 .middle {
