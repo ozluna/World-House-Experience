@@ -350,16 +350,12 @@ ul#members {
     font-family: oswald;
     font-weight:700;
 }
-.middle i {     
-   font-size: 1.2em;
-   line-height: 7px;  
-   text-align: center;
-   
-}
 
 
 
-/* Project page for small screen sizes clickable forms in display*/
+
+
+/* Project page for small screen sizes clickable forms in display and events poster readable*/
 
 @media screen and (max-width: 768px){
 .events img {
@@ -375,7 +371,7 @@ ul#members {
     text-align: center;
     color:whitesmoke;
     font-family: oswald;
-    font-weight:700;     
+    font-weight:400;     
     padding-top: 2em;
     padding-bottom: 1em;
     font-size: 75px;   
