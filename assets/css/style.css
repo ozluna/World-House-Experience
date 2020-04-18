@@ -66,12 +66,20 @@ body{
 	justify-content: center;
 	display: block;
 }
+
+.callout button {
+    border-radius:2px;
+    color: #64B6B7;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
 .callout button h1{
     align-items: center;
 	justify-content: center;
 	display: block;
-    color: whitesmoke
+     
 }
+
 
 
 .short-states{
@@ -120,7 +128,7 @@ body{
     padding:20px;
 
 }
-
+/*Designing the short states*/
 .col-md-3 h1{
     font-family:oswald;
     font-weight: 500;
@@ -152,6 +160,7 @@ body{
     padding: 50px 15px 0 15px;
     
 }
+/*Fitting the social links to the website */
 .social{
    padding:20px;
    text-align:center;
@@ -246,6 +255,7 @@ article  {
 }
 article h3{
     font-family:oswald;
+    font-weight:500;
 }
 #about-main{
     padding: 0 30px 0 30px;
@@ -336,14 +346,22 @@ ul#members {
   opacity: 1;
 }
 .middle p {
+    display: inline;
     font-family: oswald;
     font-weight:700;
 }
+.middle i {     
+   font-size: 1.2em;
+   line-height: 7px;  
+   text-align: center;
+   
+}
+
 
 
 /* Project page for small screen sizes clickable forms in display*/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
 .events img {
     display: none;
 }
@@ -383,7 +401,7 @@ ul#members {
     margin-bottom: 1em;
     font-size: large;
     font-family: exo;
-    
+    text-align: center;
 }
 
 .container{
