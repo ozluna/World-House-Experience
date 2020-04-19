@@ -70,12 +70,13 @@ body{
 .callout button {
     border-radius:2px;
     color: #64B6B7;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
     align-items: center;
 	justify-content: center;
 	display: block;
     font-size: xx-large;
+    font-weight:500;
 }
 
 
