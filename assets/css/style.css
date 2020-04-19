@@ -10,6 +10,7 @@
 body{
     font-family: exo;
     
+    
 }
 
 
@@ -207,6 +208,9 @@ body{
 
 /*About page*/
 
+.col-12{
+    padding: 0;
+}
 .about{
     position: relative;
     align-items: center;
