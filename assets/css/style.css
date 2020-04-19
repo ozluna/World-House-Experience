@@ -72,13 +72,12 @@ body{
     color: #64B6B7;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
-}
-.callout button h1{
     align-items: center;
 	justify-content: center;
 	display: block;
-     
+    font-size: xx-large;
 }
+
 
 
 
