@@ -8,8 +8,7 @@
 
 /*General section*/
 body{
-    font-family: exo;
-    
+    font-family: exo;   
     
 }
 
@@ -33,7 +32,7 @@ body{
 }
 .nav a:hover{
 	background-color: #64B6B7;
-    opacity: 0,2;
+    opacity: 0.2;
   
 
 }
@@ -208,9 +207,7 @@ body{
 
 /*About page*/
 
-.col-12{
-    padding: 0;
-}
+
 .about{
     position: relative;
     align-items: center;
@@ -424,7 +421,7 @@ ul#members {
   position: absolute;
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%, -50%);*/
+  
   
 }
 .middle p {
