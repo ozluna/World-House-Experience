@@ -9,7 +9,7 @@ There is a Newsletter subscription form to recieve more details about projects a
 
 
 ## **User Experience**
--------------
+
  The navigation bar is at the head of the every page easily visible and clear for user to understand. There is also a "Donate" button on the left
  handside to support the orgnanisation financially. The "Home" button and the logo will take you to right back to the landing page.   
  "About" tab has the information about the organisation and the current members.   
@@ -31,19 +31,19 @@ As a owner I would like
 * to inspire them in order to get involve with local projects.
 * to get donations in order to help the organisation.  
 ## Strategy
----
+
 I wanted to answer users common questions such as "Is this what I expected to see?", "Does it offer what I want?",
 "Is it valuable enough for me to return?". 
 For this website I aimed to create an user friendly, intiuitive structure.I want to inspire the users
  to take action with the organisation in many ways like volunteering, meeting people with common goals etc.  
 
 ## Scope
----
+
 This website scope are those people who is concern about the environment and the current stuation in the world and would like to make the world better place. 
 
 
 ## Structure
----
+
 When I built the structure I intended to be consistent in every page to make it predictable and easy to follow with visual images.  
 The landing page has the header, call out, short states and footer sections.  
 The navigation section is placed at the top of the page, along with the logo. I used tree structure therefore the menu on the mobile
@@ -59,16 +59,16 @@ Footer has the subscribtion form, contact details and social links.
 "Projects" page has Google forms and extra information links supported with images.  
 
 ## Skeleton
----
+
 I tried to give as many information as I can with minimum choices. Navigation has "about", "news", "events",and "projects" pages.
 I designed the website prototype on [__wireframe__](https://wireframe.cc/pro/pp/21e877a46334308) website.
 ## Surface
----
+
 I used the colours of the logo as a guidance for the website; blue and green colours which represent the environment.
   I used Google fonts for the website; font "Oswald" for the section titles and font "Exo" for the main content. 
 
 ## **Features**
------
+
 User can
 * Subscribe to the news letter or follow social media links to get information from any page.
 * Fill a form in order to enroll for a local  project from "Projects" page, apply to become a volunteer either
@@ -86,13 +86,13 @@ In the future
 * I will fix the Internet explorer layout problem.
 
 ## **Technologies Used**
------
+
 In this website I have used **html** and **css** languages.**Exo** and **Oswald** google fonts, **fontawsome** for the social links icons, 
 [**Canva**](https://www.canva.com/) to create the web site logo.
 I used [**wireframe**](https://wireframe.cc/pro/pp/21e877a46334308) to create a sketch of the website. I used **bootstrap** classes to make the website responsive.
 [HTML validator](https://validator.w3.org) and [CSS validator](https://jigsaw.w3.org/css-validator/) to check the overlooked errors
 ## **Testing**
----
+
 To test the website I have used Google developer tools during and after creating each page. Which helped me to figure out the horizontal scroll 
 problem I had, because of the bootstrap "row" class has a default of -15 margin  and I have fixed it by adding another class of bootstrap called "m-0".  
 
@@ -109,7 +109,7 @@ several users which some of them fed me back with the following comments:
 
 >  I understand well the requirements. I found the volunteering form very useful.
 ## **Credits**
----
+
 ### Pictures:
 * [Wind Turbine](https://www.futurecitiesforum.london/post/2019/04/28/repowering-onshore-wind-farms-for-city-consumption)  
 * [Seaturtle](https://static.wixstatic.com/media/caa4654a920345f38290b3e62eb73897.jpg/v1/fill/w_1203,h_495,al_c,q_85,usm_0.66_1.00_0.01/caa4654a920345f38290b3e62eb73897.webp)  
