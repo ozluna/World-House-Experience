@@ -113,11 +113,12 @@ several users which some of them fed me back with the following comments:
 In order to deploy the repository from GitHub I follow these steps.
 1. From GitHub repositories dashboard I selected to World-House-Experience.
 2. I went to Settings, "GitHub Pages" heading.
-3. I chose the "master branch" option from the source dropdown menu.
-4. This action refreshed the page and a ribbon appeared saying "Your site is published at  [https://ozluna.github.io/World-House-Experience/]" with the a link which indicated me that deployment was successful.
-The Live site can be found at this link: [https://ozluna.github.io/World-House-Experience/]
-If you wish to run locally the project you can clone it using following command:
-    git clone [https://github.com/ozluna/World-House-Experience.git/]
+3. I chose the "master branch" option from the "source" dropdown menu.
+4. This action refreshed the page and a ribbon appeared saying "Your site is published at  (https://ozluna.github.io/World-House-Experience/)" with the the live link which indicated me that deployment was successful.
+
+
+If you wish to run locally the project you can clone it using following command:  
+ *   git clone (https://github.com/ozluna/World-House-Experience.git/)
 
 ## **Credits**
 
