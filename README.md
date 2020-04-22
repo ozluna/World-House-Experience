@@ -108,6 +108,17 @@ several users which some of them fed me back with the following comments:
 
 
 >  I understand well the requirements. I found the volunteering form very useful.
+
+## **Deployment**
+In order to deploy the repository from GitHub I follow these steps.
+1. From GitHub repositories dashboard I selected to World-House-Experience.
+2. I went to Settings, "GitHub Pages" heading.
+3. I chose the "master branch" option from the source dropdown menu.
+4. This action refreshed the page and a ribbon appeared saying "Your site is published at" with a link this indicated me that deployment was successful.
+
+If you wish to run locally the project you can clone it using following command:
+    git clone https://ozluna.github.io/World-House-Experience/
+
 ## **Credits**
 
 ### Pictures:
