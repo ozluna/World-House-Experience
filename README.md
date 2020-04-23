@@ -102,7 +102,7 @@ to make it mobile user friendly.
 
 
 I tested the website on most used browsers such as Chrome, Mozilla, Opera, Safari and Internet Explorer, it works without a problem in all of them aside from
- Internet Explorer which shows a problem on the layout in the "Home" page call out section and I will fix it in near future. I also share the link with 
+ Internet Explorer which shows a problem on the layout in the "Home" and "About" pages call out section and I will fix it in near future. I also share the link with 
 several users which some of them fed me back with the following comments: 
 > It works well on my phone. I understand the content and like the logo and colours.
 

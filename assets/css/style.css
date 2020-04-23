@@ -79,7 +79,10 @@ body{
 
 
 
+/*Designing the short states*/
 
+
+/* Short state colours*/
 .short-states{
     background-color:#85C5CA;
     width: 100%;
@@ -91,10 +94,41 @@ body{
     width:100%;   
    
 }
+/* Font styles*/
+.col-md-3 h1{
+    font-family:oswald;
+    font-weight: 500;
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+}
+.col-md-3 p{
+    
+    font-weight:500;
+    color:whitesmoke;
+    text-align: center;
+}
+.col-md-4 h5{
+    font-family: oswald;
+    font-weight:500;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 0.7em;
+  
+}
 
 
 
-/*footer divided 4 section*/
+
+
+/*Footer,  divided to 4 sections*/
+
+/*"About us" statement section*/
+.about-us{
+    background-color: white;
+    padding:20px;
+
+}
 .sub-form{
 	clear:left;
 	background-size: cover;
@@ -119,36 +153,6 @@ body{
     border-radius: 2px;
 	
 }
-
-/*Short about section*/
-.about-us{
-    background-color: white;
-    padding:20px;
-
-}
-/*Designing the short states*/
-.col-md-3 h1{
-    font-family:oswald;
-    font-weight: 500;
-    color:whitesmoke;
-    text-transform: uppercase;
-    text-align: center;
-}
-.col-md-3 p{
-    
-    font-weight:500;
-    color:whitesmoke;
-    text-align: center;
-}
-.col-md-4 h5{
-    font-family: oswald;
-    font-weight:500;
-    text-align: center;
-    letter-spacing: 4px;
-    padding-bottom: 0.7em;
-  
-}
-
 
 .inline-block{
     display: inline-block;
@@ -222,8 +226,6 @@ body{
     display: flex;
 	align-items: center;
 	justify-content: center;	
-    margin: 0;
-	padding: 0;
     color:whitesmoke;
     z-index: 1;
     background-size: cover;
@@ -259,7 +261,7 @@ article h3{
 #about-main{
     padding: 0 30px 0 30px;
 }
-ul#members {
+ul #members {
    text-align: left;
     list-style: none;
    }
@@ -317,7 +319,7 @@ ul#members {
     margin:2px;
 }
 
-/*project page transparant layer for images */
+/*Project page transparant layer for images */
 .container{
     position: relative;
 }
@@ -354,7 +356,7 @@ ul#members {
 
 
 
-/* Project page for small screen sizes clickable forms in display and events poster readable*/
+/* Project page for small screen sizes clickable forms in display and Events page poster is readable*/
 
 @media screen and (max-width: 768px){
 .events img {
