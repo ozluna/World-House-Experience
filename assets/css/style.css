@@ -261,7 +261,7 @@ article h3{
 #about-main{
     padding: 0 30px 0 30px;
 }
-ul #members {
+ul#members {
    text-align: left;
     list-style: none;
    }
