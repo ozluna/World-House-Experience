@@ -78,7 +78,8 @@ User can
 * Donate to the organisation from "Donate" button from any page.
 
 In the future 
-* I will make the website live.
+* I will make the subscribtion option functional.
+* I will purchase the URL domain named "www.worldhouseexperience.com" or one similar to that. 
 * There will be additional features such as getting feed back from users to provide better service.
 * I will create a user sign up for volunteers.
 * I will create more reliable way to collect donations.
